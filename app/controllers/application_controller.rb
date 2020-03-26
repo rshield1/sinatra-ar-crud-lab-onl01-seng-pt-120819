@@ -20,6 +20,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
+  post 'articles'
+  
   
   
 end
