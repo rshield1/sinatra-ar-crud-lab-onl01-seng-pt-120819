@@ -16,8 +16,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/articles' do
-    redirect to 
-    erb :show
+  @articles = Article.all
   end
   
   
